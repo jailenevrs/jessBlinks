@@ -22,13 +22,14 @@ html, body {
   .icon-link {
     text-decoration: none;
     color: #A7727D;
-    margin-right: 40px;
+    margin-left: 15px;
   }
   
   .icon-large svg {
     width: 32px;
     height: 32px;
     color: #A7727D;
+   
   }
   
   .email {
@@ -38,6 +39,7 @@ html, body {
   
   .email-icon {
     color: #A7727D;
+    margin-left: 20px;
   }
   
   h3 {
