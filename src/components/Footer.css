@@ -1,0 +1,62 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .footer {
+    background-color: #FEFCF3;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .icon-link {
+    text-decoration: none;
+    color: #A7727D;
+    margin-right: 40px;
+  }
+  
+  .icon-large svg {
+    width: 32px;
+    height: 32px;
+    color: #A7727D;
+  }
+  
+  .email {
+    margin-left: 10px;
+    color: #A7727D;
+  }
+  
+  .email-icon {
+    color: #A7727D;
+  }
+  
+  h3 {
+    color: #A7727D;
+  }
+  
+  .icon-wrapper {
+    display: flex;
+    margin-top: 10px;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .footer-container {
+      flex-direction: column;
+    }
+  
+    .icon-large svg {
+      width: 24px;
+      height: 24px;
+    }
+  }
+  

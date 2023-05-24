@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:'Bodoni Moda', serif; 
+    
+  }
+
+  body{
+    background-image: url('./assets/wp10729995.jpeg');
+  }
+
+  .link-style {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+  }
+

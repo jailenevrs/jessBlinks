@@ -1,0 +1,112 @@
+h1{
+   margin-top: 3px;
+   font-family: 'Sacramento', cursive;
+   font-size: 40px;
+   margin-left: 30px;
+   color: #A7727D;
+}
+ 
+ .rectangle-text {
+   margin-top: 10px;
+   padding: 10px;
+   display: inline-block;
+   width: 500px;
+   height: 100px;
+   margin-left: 45px;
+   font-size: 20px;
+ }
+ 
+ .border-boutme {
+   color: #A7727D;
+   margin-top: 70px;
+   border: solid #DBA39A 2px;
+   width: 600px;
+   height: 300px;
+   margin-left: 25px;
+ }
+ 
+ /* Media Query for screens smaller than 768px */
+ @media screen and (max-width: 767px) {
+   .rectangle-text {
+     width: 90%;
+     height: auto;
+     margin: 20px auto;
+     margin-left: 0;
+   }
+ 
+   .border-boutme {
+     width: 90%;
+     height: auto;
+     margin: 50px auto;
+     margin-left: 0;
+   }
+ }
+
+ 
+ .selfie{
+  width: 400px;
+  position: absolute;
+  left: 700px;
+  top: 155px;
+  border-radius: 50%;
+ }
+ 
+ /* .image-and-signature {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px; } */
+
+
+.oval-image {
+  width: 200px; /* Adjust the width as needed */
+  height: 200px; /* Adjust the height as needed */
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+
+
+.signature{
+  font-family: 'Parisienne', cursive;
+  color: #A7727D;
+  font-size: 40px;
+
+}
+
+.services-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left: 20px;
+  margin-right: 20px;
+ 
+}
+
+.services-container :hover{
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+}
+
+.service-box {
+  width: calc(45% - 10px); /* Adjust the width and margin as needed */
+  margin-top: 60px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f5f5f5;
+}
+
+
+.service-box :hover {
+  box-shadow: none;
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .service-box {
+    width: 100%;
+  }
+}
+
