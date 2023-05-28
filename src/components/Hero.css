@@ -13,11 +13,10 @@
 
   .hero-container > p {
     position: relative;
-    z-index: 1; /* Ensures the text appears above the frosted glass bar */
+    z-index: 1;
     text-align: center;
-    color: #fff; /* Adjust text color as desired */
-    font-size: 24px; /* Adjust font size as desired */
-    margin: 16px;
+    color: #fff; 
+    font-size: 24px; 
     font-size: 50px;
     font-family: 'Bodoni Moda', serif;
   }
