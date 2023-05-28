@@ -1,6 +1,7 @@
 import React from 'react';
 import { Slide } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css';
+import { InlineWidget } from "react-calendly";
 
 import lash2 from '../assets/lash2.png';
 import lash3 from '../assets/lash3.png';
@@ -14,11 +15,11 @@ const Slideshow = () => {
       <div className="each-slide-effect">
         <div style={{
           'backgroundImage': `url(${images[0]})`,
-          'backgroundSize': 'contain', // Adjusts the size of the image to fit within the container
-          'backgroundRepeat': 'no-repeat', // Prevents the image from repeating
-          'backgroundPosition': 'center', // Centers the image within the container
-          'width': '100%', // Adjust the width of the container
-          'height': '400px' // Adjust the height of the container
+          'backgroundSize': 'contain', 
+          'backgroundRepeat': 'no-repeat', 
+          'backgroundPosition': 'center', 
+          'width': '100%', 
+          'height': '400px' 
         }}>
           {/* <span>Slide 1</span> */}
         </div>

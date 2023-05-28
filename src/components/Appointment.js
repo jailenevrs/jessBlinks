@@ -7,9 +7,9 @@ function AppointmentMaker() {
   };
 
   return (
-    <div>
+    <div className='scheduleApt'>
       <h2>Schedule an Appointment</h2>
-      <button onClick={openCalendlyWidget}>Book Now</button>
+      <button className='button-52' onClick={openCalendlyWidget}>Book Now</button>
     </div>
   );
 }
