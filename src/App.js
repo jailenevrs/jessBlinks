@@ -20,7 +20,6 @@ function App() {
   <h1 >JessBlinks</h1>
     </Link>
       <Navbar/>
-      </Hero/>
      <Routes>
 
    <Route path ='/' element = {<Home/>} />
