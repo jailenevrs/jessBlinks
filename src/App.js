@@ -4,9 +4,10 @@ import Navbar from "./components/Navbar";
 import AboutMe from './components/pages/Aboutme';
 import Footer from './components/Footer';
 import Services from './components/pages/Services';
-import Bookappt from './components/pages/Bookappt';
+import Bookappt from './components/pages/Bookappt.js';
 import './App.css'
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import Slideshow from './components/Slideshow';
 
 function App() {
   return (
@@ -21,10 +22,10 @@ function App() {
      <Routes>
 
    <Route path ='/' element = {<Home/>} />
-   <Route path = 'AboutMe' element = {<AboutMe/>} />
-   <Route path = 'Services' element = {<Services/>} />
-   <Route path = 'BookAppoinment' element = {<Bookappt/>} />
-      
+   <Route path = '/AboutMe' element = {<AboutMe/>} />
+   <Route path = '/Services' element = {<Services/>} />
+   <Route path = '/BookAppointment' element = {<Bookappt/>} />
+    <Route path = '/Gallery' element= {<Slideshow/>} />
       </Routes>
       </Router>
       </div>
