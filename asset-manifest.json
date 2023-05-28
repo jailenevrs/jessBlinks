@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/jessBlinks/static/css/main.69481845.css",
+    "main.js": "/jessBlinks/static/js/main.632dd9b6.js",
+    "static/media/eyelash.png": "/jessBlinks/static/media/eyelash.f0acdeddb8e500e39229.png",
+    "static/media/lash3.png": "/jessBlinks/static/media/lash3.90b46db0391643add880.png",
+    "static/media/lash2.png": "/jessBlinks/static/media/lash2.64ba1e89d5be5893fdb4.png",
+    "static/media/selfie.jpeg": "/jessBlinks/static/media/selfie.5011379ab4ff66b374dd.jpeg",
+    "static/media/wp10729995.jpeg": "/jessBlinks/static/media/wp10729995.d97943a439b41d2b8624.jpeg",
+    "static/media/lash.webp": "/jessBlinks/static/media/lash.c36f5af7d7b33127e61e.webp",
+    "index.html": "/jessBlinks/index.html",
+    "main.69481845.css.map": "/jessBlinks/static/css/main.69481845.css.map",
+    "main.632dd9b6.js.map": "/jessBlinks/static/js/main.632dd9b6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.69481845.css",
+    "static/js/main.632dd9b6.js"
+  ]
+}
