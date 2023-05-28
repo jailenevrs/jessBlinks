@@ -6,6 +6,7 @@ import Footer from './components/Footer';
 import Services from './components/pages/Services';
 import Bookappt from './components/pages/Bookappt.js';
 import './App.css'
+import Hero from './components/Hero.js'
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Slideshow from './components/Slideshow';
 
@@ -19,6 +20,7 @@ function App() {
   <h1 >JessBlinks</h1>
     </Link>
       <Navbar/>
+      </Hero/>
      <Routes>
 
    <Route path ='/' element = {<Home/>} />
