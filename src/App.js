@@ -27,6 +27,7 @@ function App() {
    <Route path = '/Services' element = {<Services/>} />
    <Route path = '/appointment' element = {<Bookappt/>} />
     <Route path = '/Gallery' element= {<Slideshow/>} />
+    <Route path="*" element={<Home />} />
       </Routes>
       </Router>
       </div>
