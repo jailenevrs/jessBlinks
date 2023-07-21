@@ -22,7 +22,8 @@ function App() {
       <Navbar/>
      <Routes>
 
-   {/* <Route path="/" component={Home} /> */}
+   <Route path="/" component={Home} />
+   <Route path = '/Hero' element = {<Hero/>} />
    <Route path = '/AboutMe' element = {<AboutMe/>} />
    <Route path = '/Services' element = {<Services/>} />
    <Route path = '/appointment' element = {<Bookappt/>} />

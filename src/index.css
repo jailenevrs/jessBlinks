@@ -68,10 +68,11 @@ h1{
 
 
 
-.signature{
+.sign{
   font-family: 'Parisienne', cursive;
   color: #A7727D;
   font-size: 40px;
+ margin-top: 20px;
 
 }
 
@@ -176,3 +177,4 @@ h1{
     padding: 13px 50px 13px;
   }
 }
+
