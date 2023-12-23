@@ -8,6 +8,7 @@
   position: sticky;
   top: 0;
   z-index: 999;
+  text-decoration: none;
   
   
 
@@ -39,37 +40,38 @@
 }
 
 .nav-menu {
-  display: grid;
-  grid-template-columns: repeat(4, auto);
-  grid-gap: 10px;
   list-style: none;
-  text-align: center;
-  width: 60vw;
-  justify-content: end;
-  margin-right: 2rem;
+  display: flex;
+  justify-content: space-evenly; /* or use space-around for more spacing */
+  padding: 0;
+  margin: 0;
+ 
 }
 
 .nav-item {
   height: 80px;
+  padding: 20px;
+  margin: 0;
 }
 
-.nav-links {
+.nav-links    {
   color: #fff;
-  display: flex;
+  display: inline-block;
   align-items: center;
   text-decoration: none;
   margin: 20px;
   padding: 20px;
   height: 100%;
   font-family: 'Bodoni Moda', serif;
-  color: #A7727D;1
+  color: #A7727D;
+
 
 }
 
 .nav-links:hover {
   border-bottom: 4px solid #F0DBDB;
   transition: all 0.2s ease-out;
-}1
+}
 
 .fa-bars {
   color: #fff;
@@ -102,7 +104,7 @@
   }
   .nav-menu a {
     color: #DBA39A;
-    text-decoration: none;
+    text-decoration: inherit;
   }
 
   .nav-menu.active {
@@ -118,6 +120,7 @@
     padding:20px;
     width: 100%;
     display: table;
+    text-decoration: none;
   }
 
  

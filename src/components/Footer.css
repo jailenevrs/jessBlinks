@@ -21,29 +21,29 @@ html, body {
   
   .icon-link {
     text-decoration: none;
-    color: #A7727D;
+    color:#445a3c;
     margin-left: 15px;
   }
   
   .icon-large svg {
     width: 32px;
     height: 32px;
-    color: #A7727D;
+    color: #445a3c;
    
   }
   
   .email {
     margin-left: 10px;
-    color: #A7727D;
+    color: #445a3c;
   }
   
   .email-icon {
-    color: #A7727D;
+    color: #445a3c;
     margin-left: 20px;
   }
   
   h3 {
-    color: #A7727D;
+    color: #445a3c;
   }
   
   .icon-wrapper {

@@ -15,4 +15,24 @@
     color: inherit;
     cursor: pointer;
   }
-
+  .nav-menu {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly; /* or use space-around for more spacing */
+    padding: 0;
+    margin: 0;
+  }
+  
+  .nav-item {
+    margin: 0; /* reset default margin for list items */
+  }
+  
+  .nav-links {
+    text-decoration: none; /* remove the underline from links */
+    color: black; /* set the color of the links */
+    padding: 10px; /* add padding for better spacing */
+    display: inline-block; /* ensures padding is included in width */
+  }
+  
+  /* Add any other styles you need for active, hover, etc. */
+  

@@ -1,9 +1,10 @@
 h1{
    margin-top: 3px;
    font-family: 'Sacramento', cursive;
-   font-size: 40px;
+   font-size: 50px;
    margin-left: 30px;
-   color: #A7727D;
+   color: #6F7259;
+   text-align: center;
 }
  
  .rectangle-text {
@@ -17,9 +18,9 @@ h1{
  }
  
  .border-boutme {
-   color: #A7727D;
+   color: #6F7259;
    margin-top: 70px;
-   border: solid #DBA39A 2px;
+   border: solid #f7e7ce 2px;
    width: 600px;
    height: 300px;
    margin-left: 25px;
@@ -70,7 +71,7 @@ h1{
 
 .sign{
   font-family: 'Parisienne', cursive;
-  color: #A7727D;
+  color: #6F7259;
   font-size: 40px;
  margin-top: 20px;
 
@@ -133,7 +134,7 @@ h1{
   text-align: center;
   margin-top: 40px;
   font-family: 'Bodoni Moda', serif;
-  color:#A7727D;
+  color:#6F7259;
 }
 
 
