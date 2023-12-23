@@ -24,15 +24,15 @@
   }
   
   .nav-item {
-    margin: 0; /* reset default margin for list items */
+    margin: 0; 
   }
   
   .nav-links {
-    text-decoration: none; /* remove the underline from links */
-    color: black; /* set the color of the links */
-    padding: 10px; /* add padding for better spacing */
-    display: inline-block; /* ensures padding is included in width */
+    text-decoration: none; 
+    color: black; 
+    padding: 10px;    
+    display: inline-block; 
   }
   
-  /* Add any other styles you need for active, hover, etc. */
+
   
