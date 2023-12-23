@@ -22,7 +22,7 @@ function App() {
       <Navbar/>
      <Routes>
 
-   <Route path="/" component={Home} />
+   <Route path="/" element={<Hero/>} />
    <Route path = '/Hero' element = {<Hero/>} />
    <Route path = '/AboutMe' element = {<AboutMe/>} />
    <Route path = '/Services' element = {<Services/>} />

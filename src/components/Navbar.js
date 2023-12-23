@@ -1,61 +1,40 @@
-import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
-import Button from './Button.js';
-import './Navbar.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
+import React,{useState} from 'react';
+import {Link} from 'react-router-dom';
 
-function Navbar() {
-  const [click, setClick] = useState(false);
-  const [button, setButton] = useState(true);
+function Navbar(){
+  const [click, setClick] = useState(false)
 
-  const handleClick = () => setClick(!click);
+  const handleClick = ()=> setClick(!click);
   const closeMobileMenu = () => setClick(false);
-
-  const showButton = () => {
-    if (window.innerWidth <= 960) {
-      setButton(false);
-    } else {
-      setButton(true);
-    }
-  };
-
-  window.addEventListener('resize', showButton);
-
-  return (
+  return(
     <>
-      <nav className="navbar">
-        <div className="navbar-container">
-          <Link to="/" className="navbar-logo"></Link>
-          <div className="menu-icon" onClick={handleClick}>
-            <FontAwesomeIcon icon={click ? faTimes : faBars} />
-          </div>
-          <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-            <li className="nav-item">
-              <Link to="/aboutMe" className="nav-links" onClick={closeMobileMenu}>
-                About Me
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link to="/services" className="nav-links" onClick={closeMobileMenu}>
-                Services
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link to="/appointment" className="nav-links" onClick={closeMobileMenu}>
-                Book Appointment
-              </Link>
-            </li>
-          <li className="nav-item">
-              <Link to="/Gallery" className="nav-links" onClick={closeMobileMenu}>
-                Gallery
-              </Link>
-            </li>
-            </ul>
-        </div>
-      </nav>
+    <nav className='navbar'>
+      <div className='navbar-container'>
+        <Link to= "/jessblinks" className='navbar-logo'></Link>
+        <div className='menu-icon' onClick={handleClick}></div>
+        <i className={click ? 'fas fa-times' : 'fas fa-bars'}/>
+
+      </div>
+
+      <ul className={click ? 'nav-menu active' : 'nav-menu'}>
+      <li className='nav-item'>
+      <Link to= '/' className='nav-links' onClick={closeMobileMenu}>
+          About Me
+        </Link>
+        <Link to= '/services' className='nav-links' onClick={closeMobileMenu}>
+          Services
+        </Link>
+        <Link to= '/appointment'className='nav-links' onClick={closeMobileMenu}>
+          Book Appointment
+        </Link>
+        <Link to= '/Gallery' className='nav-links' onClick={closeMobileMenu}>
+          Gallery
+        </Link>
+      </li>
+      </ul>
+    </nav>
     </>
-  );
+  )
 }
 
-export default Navbar;
+export default Navbar

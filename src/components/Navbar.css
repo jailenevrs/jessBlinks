@@ -8,10 +8,11 @@
   position: sticky;
   top: 0;
   z-index: 999;
-  overflow: hidden;
+  
   
 
 }
+
 
 .navbar-container {
   display: flex;
@@ -57,17 +58,18 @@
   display: flex;
   align-items: center;
   text-decoration: none;
-  padding: 0.5rem 1rem;
+  margin: 20px;
+  padding: 20px;
   height: 100%;
   font-family: 'Bodoni Moda', serif;
-  color: #A7727D;;
+  color: #A7727D;1
 
 }
 
 .nav-links:hover {
   border-bottom: 4px solid #F0DBDB;
   transition: all 0.2s ease-out;
-}
+}1
 
 .fa-bars {
   color: #fff;
@@ -113,7 +115,7 @@
 
   .nav-links {
     text-align: center;
-    padding: 2rem;
+    padding:20px;
     width: 100%;
     display: table;
   }
@@ -140,6 +142,10 @@
   .fa-times {
     color: #fff;
     font-size: 2rem;
+  }
+
+  .fa-bars{
+    color: #fff;
   }
 
   .nav-links-mobile {
