@@ -20,7 +20,7 @@ function Footer() {
             <EmailIcon className="email-icon" />
           </a>
         </div>
-        <p className="email">Jessicalashes@gmail.com</p>
+        <p className="email">jessluxelashes@gmail.com</p>
       </div>
     </footer>
   </div>

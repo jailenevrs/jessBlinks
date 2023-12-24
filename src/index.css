@@ -8,23 +8,24 @@ h1{
 }
  
  .rectangle-text {
-   margin-top: 10px;
-   padding: 10px;
+   margin-top: 0px;
+   padding: 0px;
    display: inline-block;
-   width: 500px;
-   height: 100px;
+   width: 400px;
+   height: 600px;
    margin-left: 45px;
    font-size: 20px;
+   background-color: #A7727D;
  }
  
- .border-boutme {
-   color: #6F7259;
-   margin-top: 70px;
-   border: solid #f7e7ce 2px;
-   width: 600px;
-   height: 300px;
-   margin-left: 25px;
- }
+ 
+  .left-box{
+    width: 500px;
+    height: 400px;
+    background-color: white;
+    padding: 0;
+  }
+ 
  
 
  @media screen and (max-width: 767px) {

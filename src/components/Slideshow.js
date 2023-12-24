@@ -12,6 +12,7 @@ const Slideshow = () => {
 
   return (
     <Slide>
+     
       <div className="each-slide-effect">
         <div style={{
           'backgroundImage': `url(${images[0]})`,

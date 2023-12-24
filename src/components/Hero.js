@@ -8,7 +8,9 @@ function Hero(){
     backgroundSize: 'cover',
     backgroundPosition: 'center',
     backgroundRepeat: 'no-repeat',
+    
   };
+                    
     return (
         <div className='hero-container' style={heroStyle}>
         <div className='frosted-glass-bar'></div>

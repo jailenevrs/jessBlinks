@@ -18,7 +18,7 @@
   .nav-menu {
     list-style: none;
     display: flex;
-    justify-content: space-evenly; /* or use space-around for more spacing */
+    justify-content: space-evenly; 
     padding: 0;
     margin: 0;
   }
@@ -26,13 +26,28 @@
   .nav-item {
     margin: 0; 
   }
+
+  .nav-item :hover {
+    text-shadow: 0 0 5px #f8f2f2; 
+    color: #6F7259;
+
+  }
   
   .nav-links {
     text-decoration: none; 
-    color: black; 
+   color: #445a3c;
     padding: 10px;    
     display: inline-block; 
   }
+
+  .guidelines {
+    width: 75%;
+    margin-left: 180px;
+
+  }
   
+  
+
+
 
   
