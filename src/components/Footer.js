@@ -5,9 +5,9 @@ import '../components/Footer.css';
 
 function Footer() {
   return (
-    <div className="container">
+    <div className="containa">
     <div className="content">
-      {/* Your main content goes here */}
+  
     </div>
     <footer className="footer">
       <div className="footer-container">

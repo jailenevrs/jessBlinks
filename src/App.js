@@ -13,7 +13,7 @@ import Slideshow from './components/Slideshow';
 function App() {
   return (
     <>
-     <div className="container">
+     <div className="containerss">
       <div className="content">
   <Router>
     <Link className="link-style" to= "/">
