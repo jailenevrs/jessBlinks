@@ -22,7 +22,6 @@ function Services() {
       <div className="service-box">
         <h3>Megas </h3>
         <p>$120</p>
-        <br></br>
         <p>This technique is similar to volumes but with an increasse in fullness </p>
       </div>
     </div>
