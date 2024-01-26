@@ -178,7 +178,7 @@ h1{
   }
 }
 
-/* Slideshow.css */
+
 
 .slideshow-container {
   display: flex;
@@ -208,4 +208,21 @@ h1{
   .description{
     font-size: small;
   }
+
+  .sign{
+    font-size: small;
+  }
+ .left{
+  align-items: center;
+ }
+
+ .nav-links{
+  font-size: smaller;
+ }
+
+ .left{
+ height: 100px;
+ }
+
+
 }

@@ -61,9 +61,13 @@ html, body {
       height: 24px;
     }
   }
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 375px) {
     footer {
-        font-size: 10px; /* Adjust the font size as needed for smaller screens */
+        font-size: 10px; 
+        height: 20px;
     }
+    
+    
+
   
 }
