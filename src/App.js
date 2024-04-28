@@ -17,7 +17,7 @@ function App() {
       <div className="content">
   <Router>
     <Link className="link-style" to= "/">
-  <h1 >JessLux Lashes</h1>
+  <h1 >JessLuxeLashes</h1>
     </Link>
       <Navbar/>
      <Routes>
