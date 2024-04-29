@@ -96,6 +96,7 @@ h1{
     margin-bottom: 200px;
   }
 }
+
  @media screen and (max-width: 767px) {
    .rectangle-text {
      width: 90%;
